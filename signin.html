@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algojunction Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+</head>
+<body
+  style="
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+  "
+>
+  <!-- Left Section -->
+  <div
+    style="
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 50px;
+    "
+  >
+    <div style="text-align: center; max-width: 400px">
+      <h1 style="color: #001f54; font-size: 3em; margin-bottom: 20px">
+        Algojunction
+      </h1>
+      <p style="color: #6b6b6b; font-size: 1.2em">
+        We are a team of talented businessmen making revenues with stocks
+      </p>
+      <img
+        src="img/login.png"
+        alt="Illustration"
+        style="width: 70%; margin-top: 30px"
+      />
+    </div>
+  </div>
+
+  <!-- Right Section -->
+  <div
+    style="
+      width: 45%;
+      background-color: #001f54;
+      margin-right: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    "
+  >
+    <div
+      style="width: 100%; max-width: 400px; padding: 30px; text-align: center"
+    >
+      <h2 style="color: #ffffff; font-size: 26px; margin-bottom: 30px">
+        LOGIN TO TRADING
+      </h2>
+      <form
+        style="display: flex; flex-direction: column; align-items: center"
+      >
+        <div style="position: relative; width: 100%; margin-bottom: 20px">
+          <i
+            class="fas fa-envelope"
+            style="
+              position: absolute;
+              left: 15px;
+              top: 50%;
+              transform: translateY(-50%);
+              color: white;
+            "
+          ></i>
+          <input
+            type="email"
+            placeholder="Email"
+            style="
+              padding: 15px 15px 15px 40px;
+              font-size: 1em;
+              width: 100%;
+              border-radius: 5px;
+              background-color: transparent;
+              border: 1px solid white;
+              box-sizing: border-box;
+              color: white; /* Set text color to white */
+            "
+          />
+        </div>
+        <div style="position: relative; width: 100%; margin-bottom: 20px">
+          <i
+            class="fas fa-lock"
+            style="
+              position: absolute;
+              left: 15px;
+              top: 50%;
+              transform: translateY(-50%);
+              color: white;
+            "
+          ></i>
+          <input
+            type="password"
+            placeholder="Password"
+            style="
+              padding: 15px 15px 15px 40px;
+              font-size: 1em;
+              width: 100%;
+              border-radius: 5px;
+              background-color: transparent;
+              border: 1px solid white;
+              box-sizing: border-box;
+              color: white; /* Set text color to white */
+            "
+          />
+        </div>
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+          "
+        >
+          <input type="checkbox" id="terms" style="margin-right: 10px" />
+          <label for="terms" style="color: #ffffff; font-size: 0.9em">
+            I accept the
+            <a
+              href="termandcondition.html"
+              style="color: #5ccbec; text-decoration: none"
+              >Terms and Conditions</a
+            >
+          </label>
+        </div>
+        <!-- Adjust the margin-top here to increase the gap -->
+        <button
+          type="submit"
+          style="
+            padding: 15px;
+            background-color: #5ccbec;
+            color: #001f54;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            margin-top: 20px;
+          "
+        >
+          LOGIN &#10132;
+        </button>
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 20px;
+          "
+        >
+          <a
+            href="#"
+            style="color: white; text-decoration: none; margin-right: 10px"
+            >Forgot Password?</a
+          >
+          <a
+            href="signup.html"
+            style="color: white; text-decoration: none; margin-left: 10px"
+          >
+            Sign Up</a
+          >
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
